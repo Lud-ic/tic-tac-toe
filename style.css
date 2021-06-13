@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(19, 18, 18);
+  box-sizing: border-box;
+}
+
+#game_board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.ttt_box {
+  background-color: blue;
+  display: block;
+}
+
+.box_size {
+  height: 100px;
+  width: 100px;
+}
