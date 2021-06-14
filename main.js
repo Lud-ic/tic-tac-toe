@@ -7,8 +7,8 @@
 // [  ] Exibir o placar acumulado
 // [  ] Manter essas informações gravadas mesmo quando encerrar o browser e abrir novamente
 
-const playerX = window.prompt('What is your name?')
-const playerO = window.prompt('What is your name?')
+const playerX = window.prompt('PlayerX: What is your name?')
+const playerO = window.prompt('PlayerO: What is your name?')
 var nClicks = 0;
 const xsrc = "https://www.pngarts.com/files/3/Letter-X-Transparent-Image.png";
 const osrc = "https://img.pngio.com/fileo-jolle-insignapng-wikimedia-commons-png-o-378_378.png";

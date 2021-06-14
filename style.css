@@ -21,6 +21,15 @@ h1 {
 
 }
 
+.players {
+  display: flex;
+  justify-content: center;
+
+}
+.p-x, .p-o{
+  color: aliceblue;
+}
+
 .play-area {
   display: flex;
   justify-content: center;
