@@ -24,7 +24,7 @@ h1 {
 .play-area {
   display: flex;
   justify-content: center;
-  margin-top: 33vh;
+  margin-top: 20vh;
   /* box-sizing: border-box; */
 }
 #game_board {
@@ -43,4 +43,23 @@ h1 {
 .box_size {
   height: 100px;
   width: 100px;
+}
+
+.divbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 70px;
+  height: 30px;
+  /* text-align: center; */
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 600;
+  color: blue;
 }

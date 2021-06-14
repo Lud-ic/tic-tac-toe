@@ -7,6 +7,8 @@
 // [  ] Exibir o placar acumulado
 // [  ] Manter essas informações gravadas mesmo quando encerrar o browser e abrir novamente
 
+const playerX = window.prompt ('What is your name?')
+const playerO = window.prompt ('What is your name?')
 var nClicks = 0;
 const xsrc = "https://www.pngarts.com/files/3/Letter-X-Transparent-Image.png";
 const osrc = "https://img.pngio.com/fileo-jolle-insignapng-wikimedia-commons-png-o-378_378.png";
@@ -44,6 +46,7 @@ function tttBox() {
     }
     // Now that our span is built, and it knows what happens when you click it, return it
     return span;
+   
 }
 
 // Find where the game board should go in the HTML
@@ -58,6 +61,11 @@ for (var i = 0; i < m; i++) {
     board[i] = tttBox();
     // Attach the span to the gameboard div so that it actually shows up
     div.appendChild(board[i]);
+}
+
+function functionbtn() {
+  document.getElementById("btn").onclick=window.location.reload();
+
 }
 
 // Done!
