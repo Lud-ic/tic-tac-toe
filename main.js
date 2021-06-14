@@ -13,6 +13,9 @@ var nClicks = 0;
 const xsrc = "https://www.pngarts.com/files/3/Letter-X-Transparent-Image.png";
 const osrc = "https://img.pngio.com/fileo-jolle-insignapng-wikimedia-commons-png-o-378_378.png";
 
+document.getElementById("p-x").innerHTML="X: " + playerX;
+document.getElementById("p-o").innerHTML="O: " + playerO;
+
 function tttBox() {
   // This function will make and return a span that does all the things each box needs to do
 
@@ -81,3 +84,4 @@ function reloadBoard() {
   nClicks=0;
   makingboard(); 
 }
+

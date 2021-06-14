@@ -17,23 +17,31 @@ header {
 
 h1 {
   color: aliceblue;
-  font-size:50px;
-
+  font-size: 50px;
 }
-
-.players {
+.playernames {
   display: flex;
   justify-content: center;
-
+  /* width: 300px; */
+  margin-top: 50px;
 }
-.p-x, .p-o{
-  color: aliceblue;
+.players {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+#p-x,
+#p-o {
+  color: blue;
+  width: 100px;
+  height: 30px;
 }
 
 .play-area {
   display: flex;
   justify-content: center;
-  margin-top: 20vh;
+  margin-top: 70px;
   /* box-sizing: border-box; */
 }
 #game_board {
@@ -42,6 +50,7 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   width: 300px;
+  
 }
 
 .ttt_box {
